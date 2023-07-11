@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Options!</title>
+
+<style type="text/css">
+button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #ea9fa0;
+	width: 15%;
+	padding: 15px;
+	color: #443c44;
+	font-size: 20px;
+	transition: all 0.3 ease;
+	cursor: pointer;
+	border: 2px solid black;
+	box-shadow: 3px 3px #ea9fa0;
+	letter-spacing: 2px;
+}
+
+button:hover
+{
+	background-color:#4eb6f7;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #68b599;
+}
+
+div {
+	text-align: center;
+	margin-top: 150px;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #000000;
+}
+</style>
+
+</head>
+<body>
+	<div>
+		<h1>Register as:</h1>
+		<button onclick="window.location = 'adminRegistration.jsp'">ADMIN</button>
+		<button onclick="window.location = 'doctorRegistration.jsp'">DOCTOR</button>
+		<button onclick="window.location = 'patientRegistration.jsp'">PATIENT</button>
+	</div>
+</body>
+</html>
